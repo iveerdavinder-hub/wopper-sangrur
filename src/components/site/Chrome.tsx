@@ -67,7 +67,6 @@ export function Footer() {
           <Link to="/book" className="hover:text-foreground transition-colors">Book</Link>
           <Link to="/faq" className="hover:text-foreground transition-colors">FAQ</Link>
           <Link to="/policy" className="hover:text-foreground transition-colors">Policy & Rules</Link>
-          <Link to="/admin" className="hover:text-primary text-primary/80 font-medium transition-colors">Admin Panel</Link>
         </div>
       </div>
       <div className="mx-auto mt-12 flex max-w-7xl flex-wrap items-center justify-between gap-4 border-t border-border/50 pt-6 px-5 text-xs text-muted-foreground">
@@ -78,10 +77,6 @@ export function Footer() {
           <span>·</span>
           <Link to="/policy" className="hover:text-foreground transition-colors">Policy & Rules</Link>
         </div>
-        <Link to="/admin" className="hover:text-primary transition-colors flex items-center gap-1.5 font-medium">
-          <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-          Staff & Admin Portal
-        </Link>
       </div>
     </footer>
   );
