@@ -62,14 +62,22 @@ export function Footer() {
           <p className="flex gap-2"><Clock className="h-4 w-4 shrink-0 text-primary" />{SITE.hours}</p>
           <a href={`tel:${SITE.phoneTel}`} className="flex gap-2 hover:text-primary"><Phone className="h-4 w-4 shrink-0 text-primary" />{SITE.phoneDisplay}</a>
         </div>
-        <div className="grid grid-cols-2 gap-2 text-sm text-muted-foreground">
-          {NAV.map((n) => <Link key={n.to} to={n.to} className="hover:text-foreground">{n.label}</Link>)}
-          <Link to="/book" className="hover:text-foreground">Book</Link>
-          <Link to="/admin" className="hover:text-primary text-primary/80 font-medium">Admin Panel</Link>
+        <div className="grid grid-cols-2 gap-y-2.5 gap-x-4 text-sm text-muted-foreground">
+          {NAV.map((n) => <Link key={n.to} to={n.to} className="hover:text-foreground transition-colors">{n.label}</Link>)}
+          <Link to="/book" className="hover:text-foreground transition-colors">Book</Link>
+          <Link to="/faq" className="hover:text-foreground transition-colors">FAQ</Link>
+          <Link to="/policy" className="hover:text-foreground transition-colors">Policy & Rules</Link>
+          <Link to="/admin" className="hover:text-primary text-primary/80 font-medium transition-colors">Admin Panel</Link>
         </div>
       </div>
-      <div className="mx-auto mt-12 flex max-w-7xl flex-wrap items-center justify-between gap-4 px-5 text-xs text-muted-foreground">
-        <p>© {new Date().getFullYear()} Wopper Sangrur · {SITE.website}</p>
+      <div className="mx-auto mt-12 flex max-w-7xl flex-wrap items-center justify-between gap-4 border-t border-border/50 pt-6 px-5 text-xs text-muted-foreground">
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+          <p>© {new Date().getFullYear()} Wopper Sangrur · {SITE.website}</p>
+          <span className="hidden sm:inline">·</span>
+          <Link to="/faq" className="hover:text-foreground transition-colors">FAQ</Link>
+          <span>·</span>
+          <Link to="/policy" className="hover:text-foreground transition-colors">Policy & Rules</Link>
+        </div>
         <Link to="/admin" className="hover:text-primary transition-colors flex items-center gap-1.5 font-medium">
           <span className="h-1.5 w-1.5 rounded-full bg-primary" />
           Staff & Admin Portal
