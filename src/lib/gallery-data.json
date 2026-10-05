@@ -1,0 +1,252 @@
+[
+  {
+    "name": "bowling-lanes.jpg",
+    "cat": "Bowling",
+    "alt": "Wopper Sangrur bowling lanes with illuminated arches and screens"
+  },
+  {
+    "name": "bowling-balls.jpg",
+    "cat": "Bowling",
+    "alt": "Bowling alley with balls in ball return rack"
+  },
+  {
+    "name": "bowling-scoreboard.jpg",
+    "cat": "Bowling",
+    "alt": "Overhead digital bowling scoreboard"
+  },
+  {
+    "name": "bowling-celebration.jpg",
+    "cat": "Bowling",
+    "alt": "Player celebrating a strike at Wopper bowling"
+  },
+  {
+    "name": "bowling-rack.jpg",
+    "cat": "Bowling",
+    "alt": "Bowling ball return machine and bowling lanes"
+  },
+  {
+    "name": "arcade-claw-machines.jpg",
+    "cat": "Arcade Games",
+    "alt": "Illuminated Wopper prize claw machines lineup"
+  },
+  {
+    "name": "arcade-floor-neon.jpg",
+    "cat": "Arcade Games",
+    "alt": "Neon-lit arcade game floor overview"
+  },
+  {
+    "name": "arcade-air-hockey.jpg",
+    "cat": "Arcade Games",
+    "alt": "Super Hockey glowing air hockey table"
+  },
+  {
+    "name": "arcade-racing-car.jpg",
+    "cat": "Arcade Games",
+    "alt": "Drive Crazy arcade racing simulator"
+  },
+  {
+    "name": "arcade-gun-shooter.jpg",
+    "cat": "Arcade Games",
+    "alt": "Razing Storm 2-player arcade shooter"
+  },
+  {
+    "name": "arcade-crazy-guitar.jpg",
+    "cat": "Arcade Games",
+    "alt": "Crazy Guitar neon musical rhythm arcade machine"
+  },
+  {
+    "name": "arcade-toy-claw.jpg",
+    "cat": "Arcade Games",
+    "alt": "Wopper Endless Adventure plush toy claw machine"
+  },
+  {
+    "name": "arcade-tap2win.jpg",
+    "cat": "Arcade Games",
+    "alt": "Tap 2 Win reflex reaction arcade machine"
+  },
+  {
+    "name": "arcade-moto-racing.jpg",
+    "cat": "Arcade Games",
+    "alt": "Dynamic Moto 3 motorcycle arcade racer"
+  },
+  {
+    "name": "arcade-shooting-arena.jpg",
+    "cat": "Arcade Games",
+    "alt": "Show Time laser target shooting arena booths"
+  },
+  {
+    "name": "arcade-water-shooter.jpg",
+    "cat": "Arcade Games",
+    "alt": "Crazy Shooting water arcade game"
+  },
+  {
+    "name": "arcade-boxer.jpg",
+    "cat": "Arcade Games",
+    "alt": "Boxer punch strength arcade machine"
+  },
+  {
+    "name": "vr-spaceship.jpg",
+    "cat": "VR Games",
+    "alt": "VR Spaceship 3-seater motion ride simulator pod"
+  },
+  {
+    "name": "vr-headset-kids.jpg",
+    "cat": "VR Games",
+    "alt": "Kids enjoying VR simulator motion ride with headsets"
+  },
+  {
+    "name": "vr-headset-adults.jpg",
+    "cat": "VR Games",
+    "alt": "Adults experiencing virtual reality motion simulator"
+  },
+  {
+    "name": "vr-shootout-booth.jpg",
+    "cat": "VR Games",
+    "alt": "Futuristic VR Shootout interactive game booth"
+  },
+  {
+    "name": "trampoline-arena.jpg",
+    "cat": "Trampoline",
+    "alt": "Wopper Trampoline arena with jumping mats and foam pit"
+  },
+  {
+    "name": "trampoline-jumping.jpg",
+    "cat": "Trampoline",
+    "alt": "Kids jumping high on trampoline mats"
+  },
+  {
+    "name": "trampoline-foam-pit.jpg",
+    "cat": "Trampoline",
+    "alt": "Trampoline foam cube pit and basketball jump zone"
+  },
+  {
+    "name": "trampoline-park-full.jpg",
+    "cat": "Trampoline",
+    "alt": "Full view of trampoline park arena"
+  },
+  {
+    "name": "trampoline-uv-glow.jpg",
+    "cat": "Trampoline",
+    "alt": "Trampoline park with UV neon blacklight"
+  },
+  {
+    "name": "spider-wall-velcro.jpg",
+    "cat": "Wall Climbing",
+    "alt": "Velcro Spider Wall jump and stick challenge"
+  },
+  {
+    "name": "spider-wall-family.jpg",
+    "cat": "Wall Climbing",
+    "alt": "Spider web velcro wall arena"
+  },
+  {
+    "name": "pitball-giant-pool.jpg",
+    "cat": "Pit Ball",
+    "alt": "Giant Pit Ball ocean with illuminated rainbow LED slides"
+  },
+  {
+    "name": "pitball-led-slides.jpg",
+    "cat": "Pit Ball",
+    "alt": "Multi-lane LED glowing slides and ball volcano"
+  },
+  {
+    "name": "pitball-kids-playing.jpg",
+    "cat": "Pit Ball",
+    "alt": "Children playing in sea of colorful pit balls"
+  },
+  {
+    "name": "pitball-banana-rocker.jpg",
+    "cat": "Pit Ball",
+    "alt": "Kids enjoying inflatable banana rocker in ball pit"
+  },
+  {
+    "name": "pitball-slide-top.jpg",
+    "cat": "Pit Ball",
+    "alt": "Top view of LED rainbow slide under Wopper sign"
+  },
+  {
+    "name": "pitball-throwing-balls.jpg",
+    "cat": "Pit Ball",
+    "alt": "Kids playing on soft play steps in the ball pit"
+  },
+  {
+    "name": "bumpercars-arena.jpg",
+    "cat": "Bumper Cars",
+    "alt": "Dash and Spin bumper cars glowing arena"
+  },
+  {
+    "name": "bumpercars-action.jpg",
+    "cat": "Bumper Cars",
+    "alt": "Kids steering bumper cars on the neon track"
+  },
+  {
+    "name": "bumpercars-smash.jpg",
+    "cat": "Bumper Cars",
+    "alt": "Bumper car in arena under Smash neon sign"
+  },
+  {
+    "name": "kidszone-play-castle.jpg",
+    "cat": "Kids Zone",
+    "alt": "Soft play castle and obstacle maze with Wopper sign"
+  },
+  {
+    "name": "kidszone-apple-carousel.jpg",
+    "cat": "Kids Zone",
+    "alt": "Apple Carousel and electric kiddie rides"
+  },
+  {
+    "name": "kidszone-blocks-table.jpg",
+    "cat": "Kids Zone",
+    "alt": "Creative building blocks activity table"
+  },
+  {
+    "name": "kidszone-train-ride.jpg",
+    "cat": "Kids Zone",
+    "alt": "Illuminated kiddie locomotive train ride"
+  },
+  {
+    "name": "kidszone-toddler-car.jpg",
+    "cat": "Kids Zone",
+    "alt": "Toddler space rover kiddie ride"
+  },
+  {
+    "name": "venue-exterior-building.jpg",
+    "cat": "Venue & Cafe",
+    "alt": "Wopper Endless Adventure building exterior at The Outlet Sangrur"
+  },
+  {
+    "name": "cafe-seating-lounge.jpg",
+    "cat": "Venue & Cafe",
+    "alt": "Comfortable cafe and dining seating in the arena"
+  },
+  {
+    "name": "cafe-meal.jpg",
+    "cat": "Venue & Cafe",
+    "alt": "Burger, fries and drinks with arcade neon backdrop"
+  },
+  {
+    "name": "cafe-chai-churi.jpg",
+    "cat": "Venue & Cafe",
+    "alt": "Chai Churi cafe counter inside Wopper"
+  },
+  {
+    "name": "venue-arcade-corridor.jpg",
+    "cat": "Venue & Cafe",
+    "alt": "Illuminated promenade between cafe and arcade games"
+  },
+  {
+    "name": "events-stage-setup.jpg",
+    "cat": "Celebrations",
+    "alt": "Wopper Endless Adventure stage setup for parties and events"
+  },
+  {
+    "name": "events-birthday-cake.jpg",
+    "cat": "Celebrations",
+    "alt": "Birthday celebration cake and balloons at Wopper"
+  },
+  {
+    "name": "events-group-gathering.jpg",
+    "cat": "Celebrations",
+    "alt": "Group gathering in front of Wopper Endless Adventure wall"
+  }
+]

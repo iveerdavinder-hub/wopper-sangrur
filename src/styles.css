@@ -1,0 +1,400 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-sans: "Manrope", system-ui, sans-serif;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-foreground: var(--whatsapp-foreground);
+  --color-surface: var(--surface);
+}
+
+/* ==========================================================================
+   THEME 1 (Default): Mint Green (#A8E6CF) + Light Grey (#F0F0F0) + Charcoal (#333333)
+   "Clean and fresh, with a professional yet playful edge."
+   ========================================================================== */
+:root,
+html[data-theme="mint-charcoal"] {
+  --radius: 1rem;
+  --background: #F0F0F0;
+  --foreground: #333333;
+  --surface: #FFFFFF;
+  --card: #FFFFFF;
+  --card-foreground: #333333;
+  --popover: #FFFFFF;
+  --popover-foreground: #333333;
+  --primary: #A8E6CF;
+  --primary-foreground: #1A2E24;
+  --primary-text: #167A54;
+  --secondary: #E3EDE7;
+  --secondary-foreground: #223028;
+  --muted: #E5ECE8;
+  --muted-foreground: #607068;
+  --accent: #333333;
+  --accent-foreground: #FFFFFF;
+  --destructive: #E5484D;
+  --destructive-foreground: #FFFFFF;
+  --border: rgba(51, 51, 51, 0.12);
+  --input: rgba(51, 51, 51, 0.15);
+  --ring: #167A54;
+  --whatsapp: #1EBE5D;
+  --whatsapp-foreground: #FFFFFF;
+  --glow-primary: 0 4px 24px -2px rgba(168, 230, 207, 0.8), 0 0 0 1px rgba(22, 122, 84, 0.2);
+  --glow-accent: 0 4px 20px -2px rgba(51, 51, 51, 0.25);
+  --gradient-fade: linear-gradient(180deg, transparent 0%, transparent 20%, rgba(240, 240, 240, 0.88) 60%, #F0F0F0 100%);
+  --gradient-side: linear-gradient(90deg, #F0F0F0 0%, rgba(240, 240, 240, 0.94) 50%, rgba(240, 240, 240, 0.25) 100%);
+}
+
+html[data-theme="mint-charcoal"] .text-primary,
+:root:not([data-theme]) .text-primary,
+html[data-theme="mint-charcoal"] .eyebrow,
+:root:not([data-theme]) .eyebrow {
+  color: var(--primary-text);
+}
+html[data-theme="mint-charcoal"] .glow-text,
+:root:not([data-theme]) .glow-text {
+  text-shadow: 0 0 24px rgba(22, 122, 84, 0.35);
+}
+html[data-theme="mint-charcoal"] .btn-primary,
+:root:not([data-theme]) .btn-primary {
+  background: #A8E6CF;
+  color: #1A2E24;
+  font-weight: 700;
+  box-shadow: 0 4px 14px rgba(168, 230, 207, 0.55);
+}
+html[data-theme="mint-charcoal"] .btn-primary:hover,
+:root:not([data-theme]) .btn-primary:hover {
+  background: #94DEC2;
+}
+
+/* ==========================================================================
+   THEME 2: Lavender (#C5B4E3) + Soft Blue (#A7C7E7) + White (#FFFFFF)
+   "Dreamy and futuristic, perfect for a tech‑gaming aesthetic."
+   ========================================================================== */
+html[data-theme="lavender-tech"] {
+  --radius: 1rem;
+  --background: #0E0C1C;
+  --foreground: #FFFFFF;
+  --surface: #17142E;
+  --card: #191632;
+  --card-foreground: #FFFFFF;
+  --popover: #191632;
+  --popover-foreground: #FFFFFF;
+  --primary: #C5B4E3;
+  --primary-foreground: #120E24;
+  --primary-text: #C5B4E3;
+  --secondary: #221D42;
+  --secondary-foreground: #FFFFFF;
+  --muted: #241F48;
+  --muted-foreground: #A8ACD1;
+  --accent: #A7C7E7;
+  --accent-foreground: #0C1724;
+  --destructive: #F87171;
+  --destructive-foreground: #FFFFFF;
+  --border: rgba(197, 180, 227, 0.22);
+  --input: rgba(167, 199, 231, 0.24);
+  --ring: #C5B4E3;
+  --whatsapp: #25D366;
+  --whatsapp-foreground: #08150C;
+  --glow-primary: 0 0 0 1px rgba(197, 180, 227, 0.4), 0 10px 40px -8px rgba(197, 180, 227, 0.65);
+  --glow-accent: 0 10px 40px -8px rgba(167, 199, 231, 0.65);
+  --gradient-fade: linear-gradient(180deg, transparent 0%, transparent 35%, rgba(14, 12, 28, 0.75) 70%, #0E0C1C 100%);
+  --gradient-side: linear-gradient(90deg, #0E0C1C 0%, rgba(14, 12, 28, 0.82) 45%, transparent 100%);
+}
+html[data-theme="lavender-tech"] .btn-primary {
+  background: #C5B4E3;
+  color: #120E24;
+  font-weight: 700;
+  box-shadow: 0 0 22px rgba(197, 180, 227, 0.45);
+}
+html[data-theme="lavender-tech"] .btn-primary:hover {
+  background: #D4C6ED;
+}
+html[data-theme="lavender-tech"] .btn-accent {
+  background: #A7C7E7;
+  color: #0C1724;
+  box-shadow: 0 0 22px rgba(167, 199, 231, 0.45);
+}
+html[data-theme="lavender-tech"] .btn-accent:hover {
+  background: #BDD8F4;
+}
+
+/* ==========================================================================
+   THEME 3: Peach (#FFDAB9) + Beige (#F5F5DC) + Warm Grey (#B0A999)
+   "Cozy and approachable, ideal for casual or community‑focused gaming sites."
+   ========================================================================== */
+html[data-theme="peach-beige"] {
+  --radius: 1rem;
+  --background: #F5F5DC;
+  --foreground: #38312A;
+  --surface: #FCFAF2;
+  --card: #FCFAF2;
+  --card-foreground: #38312A;
+  --popover: #FCFAF2;
+  --popover-foreground: #38312A;
+  --primary: #FFDAB9;
+  --primary-foreground: #382416;
+  --primary-text: #B8652E;
+  --secondary: #EAE4D0;
+  --secondary-foreground: #38312A;
+  --muted: #EBE5D5;
+  --muted-foreground: #73695C;
+  --accent: #E8A87C;
+  --accent-foreground: #301C0E;
+  --destructive: #DC2626;
+  --destructive-foreground: #FFFFFF;
+  --border: rgba(176, 169, 153, 0.38);
+  --input: rgba(176, 169, 153, 0.45);
+  --ring: #B8652E;
+  --whatsapp: #1EBE5D;
+  --whatsapp-foreground: #FFFFFF;
+  --glow-primary: 0 4px 20px -2px rgba(255, 218, 185, 0.8), 0 0 0 1px rgba(184, 101, 46, 0.25);
+  --glow-accent: 0 4px 18px -2px rgba(232, 168, 124, 0.55);
+  --gradient-fade: linear-gradient(180deg, transparent 0%, transparent 20%, rgba(245, 245, 220, 0.88) 60%, #F5F5DC 100%);
+  --gradient-side: linear-gradient(90deg, #F5F5DC 0%, rgba(245, 245, 220, 0.94) 50%, rgba(245, 245, 220, 0.25) 100%);
+}
+html[data-theme="peach-beige"] .text-primary,
+html[data-theme="peach-beige"] .eyebrow {
+  color: var(--primary-text);
+}
+html[data-theme="peach-beige"] .glow-text {
+  text-shadow: 0 0 24px rgba(184, 101, 46, 0.35);
+}
+html[data-theme="peach-beige"] .btn-primary {
+  background: #FFDAB9;
+  color: #382416;
+  font-weight: 700;
+  box-shadow: 0 4px 14px rgba(255, 218, 185, 0.65);
+}
+html[data-theme="peach-beige"] .btn-primary:hover {
+  background: #F7CAA2;
+}
+
+/* ==========================================================================
+   THEME 4: Sky Blue (#87CEEB) + Pale Yellow (#FFFACD) + Slate Grey (#708090)
+   "Cheerful and uplifting, great for a vibrant homepage."
+   ========================================================================== */
+html[data-theme="sky-yellow"] {
+  --radius: 1rem;
+  --background: #F0F6FA;
+  --foreground: #1E2B38;
+  --surface: #FFFFFF;
+  --card: #FFFFFF;
+  --card-foreground: #1E2B38;
+  --popover: #FFFFFF;
+  --popover-foreground: #1E2B38;
+  --primary: #87CEEB;
+  --primary-foreground: #0A2433;
+  --primary-text: #0284C7;
+  --secondary: #E1EEF6;
+  --secondary-foreground: #1E2B38;
+  --muted: #E3F0F7;
+  --muted-foreground: #708090;
+  --accent: #FFFACD;
+  --accent-foreground: #383307;
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+  --border: rgba(112, 128, 144, 0.24);
+  --input: rgba(112, 128, 144, 0.28);
+  --ring: #0284C7;
+  --whatsapp: #1EBE5D;
+  --whatsapp-foreground: #FFFFFF;
+  --glow-primary: 0 4px 20px -2px rgba(135, 206, 235, 0.75), 0 0 0 1px rgba(2, 132, 199, 0.25);
+  --glow-accent: 0 4px 18px -2px rgba(255, 250, 205, 0.85);
+  --gradient-fade: linear-gradient(180deg, transparent 0%, transparent 20%, rgba(240, 246, 250, 0.88) 60%, #F0F6FA 100%);
+  --gradient-side: linear-gradient(90deg, #F0F6FA 0%, rgba(240, 246, 250, 0.94) 50%, rgba(240, 246, 250, 0.25) 100%);
+}
+html[data-theme="sky-yellow"] .text-primary,
+html[data-theme="sky-yellow"] .eyebrow {
+  color: var(--primary-text);
+}
+html[data-theme="sky-yellow"] .glow-text {
+  text-shadow: 0 0 24px rgba(2, 132, 199, 0.35);
+}
+html[data-theme="sky-yellow"] .btn-primary {
+  background: #87CEEB;
+  color: #0A2433;
+  font-weight: 700;
+  box-shadow: 0 4px 14px rgba(135, 206, 235, 0.6);
+}
+html[data-theme="sky-yellow"] .btn-primary:hover {
+  background: #73BEDA;
+}
+html[data-theme="sky-yellow"] .btn-accent {
+  background: #FFFACD;
+  color: #383307;
+  border: 1px solid rgba(112, 128, 144, 0.3);
+}
+
+/* ==========================================================================
+   THEME 5: Dusty Pink (#E6AFAF) + Light Slate (#778899) + Black Accents (#000000)
+   "Stylish and contemporary, with a subtle edge for competitive gaming."
+   ========================================================================== */
+html[data-theme="dusty-pink"] {
+  --radius: 1rem;
+  --background: #090B0E;
+  --foreground: #F5F7FA;
+  --surface: #12161D;
+  --card: #131820;
+  --card-foreground: #F5F7FA;
+  --popover: #131820;
+  --popover-foreground: #F5F7FA;
+  --primary: #E6AFAF;
+  --primary-foreground: #18080E;
+  --primary-text: #E6AFAF;
+  --secondary: #1C232D;
+  --secondary-foreground: #E6AFAF;
+  --muted: #1E2530;
+  --muted-foreground: #778899;
+  --accent: #778899;
+  --accent-foreground: #000000;
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+  --border: rgba(119, 136, 153, 0.26);
+  --input: rgba(119, 136, 153, 0.3);
+  --ring: #E6AFAF;
+  --whatsapp: #25D366;
+  --whatsapp-foreground: #061108;
+  --glow-primary: 0 0 0 1px rgba(230, 175, 175, 0.4), 0 10px 40px -8px rgba(230, 175, 175, 0.65);
+  --glow-accent: 0 10px 40px -8px rgba(119, 136, 153, 0.5);
+  --gradient-fade: linear-gradient(180deg, transparent 0%, transparent 35%, rgba(9, 11, 14, 0.75) 70%, #090B0E 100%);
+  --gradient-side: linear-gradient(90deg, #090B0E 0%, rgba(9, 11, 14, 0.82) 45%, transparent 100%);
+}
+html[data-theme="dusty-pink"] .btn-primary {
+  background: #E6AFAF;
+  color: #18080E;
+  font-weight: 700;
+  box-shadow: 0 0 20px rgba(230, 175, 175, 0.5);
+}
+html[data-theme="dusty-pink"] .btn-primary:hover {
+  background: #D89F9F;
+}
+html[data-theme="dusty-pink"] .btn-accent {
+  background: #778899;
+  color: #000000;
+  font-weight: 700;
+  box-shadow: 0 0 20px rgba(119, 136, 153, 0.35);
+}
+
+/* ==========================================================================
+   THEME 6: Original Neon Dark
+   ========================================================================== */
+html[data-theme="neon-dark"] {
+  --radius: 1rem;
+  --background: oklch(0.14 0.01 150);
+  --foreground: oklch(0.97 0.01 110);
+  --surface: oklch(0.18 0.012 150);
+  --card: oklch(0.19 0.012 150);
+  --card-foreground: oklch(0.97 0.01 110);
+  --popover: oklch(0.19 0.012 150);
+  --popover-foreground: oklch(0.97 0.01 110);
+  --primary: oklch(0.89 0.22 128);
+  --primary-foreground: oklch(0.16 0.02 140);
+  --primary-text: oklch(0.89 0.22 128);
+  --secondary: oklch(0.24 0.014 150);
+  --secondary-foreground: oklch(0.97 0.01 110);
+  --muted: oklch(0.24 0.014 150);
+  --muted-foreground: oklch(0.72 0.02 120);
+  --accent: oklch(0.72 0.2 45);
+  --accent-foreground: oklch(0.15 0.02 40);
+  --destructive: oklch(0.65 0.22 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 14%);
+  --ring: oklch(0.89 0.22 128);
+  --whatsapp: oklch(0.72 0.17 150);
+  --whatsapp-foreground: oklch(0.14 0.02 150);
+  --glow-primary: 0 0 0 1px color-mix(in oklab, var(--primary) 40%, transparent), 0 10px 40px -8px color-mix(in oklab, var(--primary) 55%, transparent);
+  --glow-accent: 0 10px 40px -8px color-mix(in oklab, var(--accent) 60%, transparent);
+  --gradient-fade: linear-gradient(180deg, transparent 0%, transparent 35%, color-mix(in oklab, var(--background) 70%, transparent) 70%, var(--background) 100%);
+  --gradient-side: linear-gradient(90deg, var(--background) 0%, color-mix(in oklab, var(--background) 75%, transparent) 45%, transparent 100%);
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+  html { scroll-behavior: smooth; }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+  h1, h2, h3, .font-display { font-family: var(--font-display); letter-spacing: -0.02em; }
+  :focus-visible { outline: 2px solid var(--ring); outline-offset: 3px; border-radius: 6px; }
+}
+
+@utility btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  min-height: 3rem; padding: 0 1.5rem; border-radius: 999px;
+  font-weight: 700; font-size: 0.95rem; transition: transform .2s, box-shadow .2s, background-color .2s;
+  &:hover { transform: translateY(-2px); }
+}
+@utility btn-primary {
+  background: var(--primary); color: var(--primary-foreground); box-shadow: var(--glow-primary);
+}
+@utility btn-accent {
+  background: var(--accent); color: var(--accent-foreground); box-shadow: var(--glow-accent);
+}
+@utility btn-ghost {
+  background: color-mix(in oklab, var(--foreground) 6%, transparent); color: var(--foreground);
+  border: 1px solid var(--border);
+  &:hover { background: color-mix(in oklab, var(--foreground) 12%, transparent); }
+}
+@utility btn-whatsapp {
+  background: var(--whatsapp); color: var(--whatsapp-foreground);
+}
+@utility eyebrow {
+  font-size: 0.75rem; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--primary);
+}
+@utility glow-text {
+  text-shadow: 0 0 30px color-mix(in oklab, var(--primary) 55%, transparent);
+}
+@utility bg-fade { background: var(--gradient-fade); }
+@utility bg-side { background: var(--gradient-side); }
+@utility card-glow {
+  transition: transform .35s, box-shadow .35s, border-color .35s;
+  &:hover { transform: translateY(-6px); box-shadow: var(--glow-primary); }
+}
+@utility field {
+  width: 100%; min-height: 3rem; border-radius: 0.85rem; padding: 0.7rem 1rem;
+  background: var(--surface); border: 1px solid var(--input); color: var(--foreground);
+  &:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px color-mix(in oklab, var(--primary) 25%, transparent); }
+}
+
+@keyframes rise { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+@utility animate-rise { animation: rise .8s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes marquee { to { transform: translateX(-50%); } }
+@utility animate-marquee { animation: marquee 30s linear infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
